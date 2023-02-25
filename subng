@@ -72,6 +72,5 @@ vless://5eb92c7e-3d07-4aae-9d37-536c072f6d42@45.85.118.45:443?sni=eshak.khorsand
 vless://5eb92c7e-3d07-4aae-9d37-536c072f6d42@185.193.29.20:443?sni=eshak.khorsander.fun&security=tls&type=ws&path=/A0zOB1gF0Gte3/vlessws&host=eshak.khorsander.fun#tls_WS_direct_vless_eshak.khorsander.fun
 trojan://5eb92c7e-3d07-4aae-9d37-536c072f6d42@45.85.118.45:443?sni=eshak.khorsander.fun&security=tls&type=ws&path=/A0zOB1gF0Gte3/trojanws&host=eshak.khorsander.fun#tls_WS_direct_trojan_eshak.khorsander.fun
 trojan://5eb92c7e-3d07-4aae-9d37-536c072f6d42@104.24.214.45:443?sni=eshak.khorsander.fun&security=tls&type=ws&path=/A0zOB1gF0Gte3/trojanws&host=eshak.khorsander.fun#tls_WS_direct_trojan_eshak.khorsander.fun
-vless://40130de1-c35d-4286-a437-353d39c6b405@adsl.isegaro.click:443?sni=karim.mooshaksazi.fun&security=tls&type=grpc&serviceName=wMnMnQlPdN1t-vlgrpc#Mokhaberat
 vless://40130de1-c35d-4286-a437-353d39c6b405@mci.isegaro.click:443?sni=karim.mooshaksazi.fun&security=tls&type=grpc&serviceName=wMnMnQlPdN1t-vlgrpc#Hamrah+Aval
 vless://40130de1-c35d-4286-a437-353d39c6b405@irc.isegaro.click:443?sni=karim.mooshaksazi.fun&security=tls&type=grpc&serviceName=wMnMnQlPdN1t-vlgrpc#Irancell
