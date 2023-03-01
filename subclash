@@ -23,10 +23,26 @@ proxies:
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
     skip-cert-verify: true
-    sni: trojanws
+    sni: www.speedtest.net
     network: ws
     ws-opts:
-      path: ?sni=A0zOB1gF0Gte3?sni=trojanws
+      path: /A0zOB1gF0Gte3/trojanws
+      headers:
+        Host: eshak.khorsander.fun
+    udp: true
+  - name: tls_WS_Fake_vmess_eshak.khorsander.fun
+    server: www.speedtest.net
+    port: 443
+    type: vmess
+    uuid: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.speedtest.net
+    network: ws
+    ws-opts:
+      path: /A0zOB1gF0Gte3/vmessws
       headers:
         Host: eshak.khorsander.fun
     udp: true
@@ -36,15 +52,69 @@ proxies:
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
     skip-cert-verify: true
-    sni: trojanws
+    sni: eshak.khorsander.fun
     network: ws
     ws-opts:
-      path: ?sni=A0zOB1gF0Gte3?sni=trojanws
+      path: /A0zOB1gF0Gte3/trojanws
       headers:
         Host: eshak.khorsander.fun
     udp: true
+  - name: tls_WS_direct_vmess_eshak.khorsander.fun
+    server: eshak.khorsander.fun
+    port: 443
+    type: vmess
+    uuid: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: eshak.khorsander.fun
+    network: ws
+    ws-opts:
+      path: /A0zOB1gF0Gte3/vmessws
+      headers:
+        Host: eshak.khorsander.fun
+    udp: true
+  - name: tls_tcp_direct_vmess_eshak.khorsander.fun
+    server: eshak.khorsander.fun
+    port: 443
+    type: vmess
+    uuid: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: eshak.khorsander.fun
+    udp: true
+  - name: http_WS_direct_vmess_eshak.khorsander.fun
+    server: eshak.khorsander.fun
+    port: 80
+    type: vmess
+    uuid: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: eshak.khorsander.fun
+    network: ws
+    ws-opts:
+      path: /A0zOB1gF0Gte3/vmessws
+      headers:
+        Host: eshak.khorsander.fun
+    udp: true
+  - name: http_tcp_direct_vmess_eshak.khorsander.fun
+    server: eshak.khorsander.fun
+    port: 80
+    type: vmess
+    uuid: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun
-    server: www.speedtest.net
+    server: eshak.khorsander.fun
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -55,7 +125,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 2
-    server: 104.17.83.126
+    server: www.speedtest.net
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -66,7 +136,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 3
-    server: 172.67.188.203
+    server: 104.17.83.126
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -77,7 +147,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 4
-    server: 104.17.9.96
+    server: 172.67.188.203
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -88,7 +158,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 5
-    server: 104.20.46.42
+    server: 104.17.9.96
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -99,7 +169,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 6
-    server: 104.19.238.233
+    server: 104.20.46.42
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -110,7 +180,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 7
-    server: 104.24.214.45
+    server: 104.19.238.233
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -121,7 +191,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 8
-    server: 104.20.50.232
+    server: 104.24.214.45
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -132,7 +202,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 9
-    server: 104.17.93.236
+    server: 104.20.50.232
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -143,7 +213,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 10
-    server: 104.20.42.117
+    server: 104.17.93.236
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -154,7 +224,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 11
-    server: 104.27.97.109
+    server: 104.20.42.117
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -165,7 +235,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 12
-    server: 104.18.29.195
+    server: 104.27.97.109
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -176,7 +246,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 13
-    server: 104.18.83.200
+    server: 104.18.29.195
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -187,7 +257,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 14
-    server: 104.22.59.36
+    server: 104.18.83.200
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -198,7 +268,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 15
-    server: b2n.ir
+    server: 104.22.59.36
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -209,7 +279,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 16
-    server: avval.ir
+    server: b2n.ir
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -220,7 +290,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 17
-    server: metrix.ir
+    server: avval.ir
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -231,7 +301,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 18
-    server: tapsell.ir
+    server: metrix.ir
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -242,7 +312,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 19
-    server: adivery.com
+    server: tapsell.ir
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -253,7 +323,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 20
-    server: medium.com
+    server: adivery.com
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -264,7 +334,7 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 21
-    server: cdnjs.com
+    server: medium.com
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -275,6 +345,17 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 22
+    server: cdnjs.com
+    port: 443
+    type: trojan
+    password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    skip-cert-verify: true
+    sni: eshak.khorsander.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: A0zOB1gF0Gte3-trgrpc
+    udp: true
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 23
     server: 185.162.228.3
     port: 443
     type: trojan
@@ -489,10 +570,10 @@ proxies:
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
     skip-cert-verify: true
-    sni: trojanws
+    sni: eshak.khorsander.fun
     network: ws
     ws-opts:
-      path: ?sni=A0zOB1gF0Gte3?sni=trojanws
+      path: /A0zOB1gF0Gte3/trojanws
       headers:
         Host: eshak.khorsander.fun
     udp: true
@@ -502,14 +583,14 @@ proxies:
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
     skip-cert-verify: true
-    sni: trojanws
+    sni: eshak.khorsander.fun
     network: ws
     ws-opts:
-      path: ?sni=A0zOB1gF0Gte3?sni=trojanws
+      path: /A0zOB1gF0Gte3/trojanws
       headers:
         Host: eshak.khorsander.fun
     udp: true
-  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 23
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 24
     server: adsl.isegaro.click
     port: 443
     type: trojan
@@ -520,7 +601,7 @@ proxies:
     grpc-opts:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
-  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 24
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 25
     server: mci.isegaro.click
     port: 443
     type: trojan
@@ -531,8 +612,129 @@ proxies:
     grpc-opts:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
-  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 25
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 26
     server: irc.isegaro.click
+    port: 443
+    type: trojan
+    password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    skip-cert-verify: true
+    sni: eshak.khorsander.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: A0zOB1gF0Gte3-trgrpc
+    udp: true
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 27
+    server: 185.238.228.160
+    port: 443
+    type: trojan
+    password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    skip-cert-verify: true
+    sni: eshak.khorsander.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: A0zOB1gF0Gte3-trgrpc
+    udp: true
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 28
+    server: 185.170.166.189
+    port: 443
+    type: trojan
+    password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    skip-cert-verify: true
+    sni: eshak.khorsander.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: A0zOB1gF0Gte3-trgrpc
+    udp: true
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 29
+    server: 154.84.175.90
+    port: 443
+    type: trojan
+    password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    skip-cert-verify: true
+    sni: eshak.khorsander.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: A0zOB1gF0Gte3-trgrpc
+    udp: true
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 30
+    server: 104.19.104.161
+    port: 443
+    type: trojan
+    password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    skip-cert-verify: true
+    sni: eshak.khorsander.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: A0zOB1gF0Gte3-trgrpc
+    udp: true
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 31
+    server: 104.18.191.238
+    port: 443
+    type: trojan
+    password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    skip-cert-verify: true
+    sni: eshak.khorsander.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: A0zOB1gF0Gte3-trgrpc
+    udp: true
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 32
+    server: 104.24.88.93
+    port: 443
+    type: trojan
+    password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    skip-cert-verify: true
+    sni: eshak.khorsander.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: A0zOB1gF0Gte3-trgrpc
+    udp: true
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 33
+    server: 172.64.26.21
+    port: 443
+    type: trojan
+    password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    skip-cert-verify: true
+    sni: eshak.khorsander.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: A0zOB1gF0Gte3-trgrpc
+    udp: true
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 34
+    server: 104.27.14.21
+    port: 443
+    type: trojan
+    password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    skip-cert-verify: true
+    sni: eshak.khorsander.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: A0zOB1gF0Gte3-trgrpc
+    udp: true
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 35
+    server: 104.24.21.134
+    port: 443
+    type: trojan
+    password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    skip-cert-verify: true
+    sni: eshak.khorsander.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: A0zOB1gF0Gte3-trgrpc
+    udp: true
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 36
+    server: 104.18.61.13
+    port: 443
+    type: trojan
+    password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    skip-cert-verify: true
+    sni: eshak.khorsander.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: A0zOB1gF0Gte3-trgrpc
+    udp: true
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 37
+    server: 104.18.61.13
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -547,7 +749,12 @@ proxy-groups:
     type: select
     proxies:
       - tls_WS_Fake_trojan_eshak.khorsander.fun
+      - tls_WS_Fake_vmess_eshak.khorsander.fun
       - tls_WS_direct_trojan_eshak.khorsander.fun
+      - tls_WS_direct_vmess_eshak.khorsander.fun
+      - tls_tcp_direct_vmess_eshak.khorsander.fun
+      - http_WS_direct_vmess_eshak.khorsander.fun
+      - http_tcp_direct_vmess_eshak.khorsander.fun
       - tls_grpc_direct_trojan_eshak.khorsander.fun
       - tls_grpc_direct_trojan_eshak.khorsander.fun 2
       - tls_grpc_direct_trojan_eshak.khorsander.fun 3
@@ -570,6 +777,7 @@ proxy-groups:
       - tls_grpc_direct_trojan_eshak.khorsander.fun 20
       - tls_grpc_direct_trojan_eshak.khorsander.fun 21
       - tls_grpc_direct_trojan_eshak.khorsander.fun 22
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 23
       - tls_grpc_direct_trojan_nasa.mooshaksazi.fun
       - tls_grpc_direct_trojan_nasa.mooshaksazi.fun 2
       - tls_grpc_direct_trojan_nasa.mooshaksazi.fun 3
@@ -590,9 +798,20 @@ proxy-groups:
       - tls_grpc_direct_trojan_nasa.mooshaksazi.fun 18
       - tls_WS_direct_trojan_eshak.khorsander.fun 2
       - tls_WS_direct_trojan_eshak.khorsander.fun 3
-      - tls_grpc_direct_trojan_eshak.khorsander.fun 23
       - tls_grpc_direct_trojan_eshak.khorsander.fun 24
       - tls_grpc_direct_trojan_eshak.khorsander.fun 25
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 26
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 27
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 28
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 29
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 30
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 31
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 32
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 33
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 34
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 35
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 36
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 37
       - BEST-PING
       - DIRECT
   - name: BEST-PING
@@ -602,7 +821,12 @@ proxy-groups:
     tolerance: 50
     proxies:
       - tls_WS_Fake_trojan_eshak.khorsander.fun
+      - tls_WS_Fake_vmess_eshak.khorsander.fun
       - tls_WS_direct_trojan_eshak.khorsander.fun
+      - tls_WS_direct_vmess_eshak.khorsander.fun
+      - tls_tcp_direct_vmess_eshak.khorsander.fun
+      - http_WS_direct_vmess_eshak.khorsander.fun
+      - http_tcp_direct_vmess_eshak.khorsander.fun
       - tls_grpc_direct_trojan_eshak.khorsander.fun
       - tls_grpc_direct_trojan_eshak.khorsander.fun 2
       - tls_grpc_direct_trojan_eshak.khorsander.fun 3
@@ -625,6 +849,7 @@ proxy-groups:
       - tls_grpc_direct_trojan_eshak.khorsander.fun 20
       - tls_grpc_direct_trojan_eshak.khorsander.fun 21
       - tls_grpc_direct_trojan_eshak.khorsander.fun 22
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 23
       - tls_grpc_direct_trojan_nasa.mooshaksazi.fun
       - tls_grpc_direct_trojan_nasa.mooshaksazi.fun 2
       - tls_grpc_direct_trojan_nasa.mooshaksazi.fun 3
@@ -645,9 +870,20 @@ proxy-groups:
       - tls_grpc_direct_trojan_nasa.mooshaksazi.fun 18
       - tls_WS_direct_trojan_eshak.khorsander.fun 2
       - tls_WS_direct_trojan_eshak.khorsander.fun 3
-      - tls_grpc_direct_trojan_eshak.khorsander.fun 23
       - tls_grpc_direct_trojan_eshak.khorsander.fun 24
       - tls_grpc_direct_trojan_eshak.khorsander.fun 25
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 26
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 27
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 28
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 29
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 30
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 31
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 32
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 33
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 34
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 35
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 36
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 37
 rule-providers:
   clash:
     type: http
