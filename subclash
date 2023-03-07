@@ -734,7 +734,51 @@ proxies:
       grpc-service-name: A0zOB1gF0Gte3-trgrpc
     udp: true
   - name: tls_grpc_direct_trojan_eshak.khorsander.fun 37
-    server: 104.18.61.13
+    server: www.chess.com
+    port: 443
+    type: trojan
+    password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    skip-cert-verify: true
+    sni: eshak.khorsander.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: A0zOB1gF0Gte3-trgrpc
+    udp: true
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 38
+    server: cdn.readme.io
+    port: 443
+    type: trojan
+    password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    skip-cert-verify: true
+    sni: eshak.khorsander.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: A0zOB1gF0Gte3-trgrpc
+    udp: true
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 39
+    server: www.cpanel.net
+    port: 443
+    type: trojan
+    password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    skip-cert-verify: true
+    sni: eshak.khorsander.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: A0zOB1gF0Gte3-trgrpc
+    udp: true
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 40
+    server: www.nginx.com
+    port: 443
+    type: trojan
+    password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
+    skip-cert-verify: true
+    sni: eshak.khorsander.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: A0zOB1gF0Gte3-trgrpc
+    udp: true
+  - name: tls_grpc_direct_trojan_eshak.khorsander.fun 41
+    server: www.inverse.com
     port: 443
     type: trojan
     password: 5eb92c7e-3d07-4aae-9d37-536c072f6d42
@@ -812,6 +856,10 @@ proxy-groups:
       - tls_grpc_direct_trojan_eshak.khorsander.fun 35
       - tls_grpc_direct_trojan_eshak.khorsander.fun 36
       - tls_grpc_direct_trojan_eshak.khorsander.fun 37
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 38
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 39
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 40
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 41
       - BEST-PING
       - DIRECT
   - name: BEST-PING
@@ -884,6 +932,10 @@ proxy-groups:
       - tls_grpc_direct_trojan_eshak.khorsander.fun 35
       - tls_grpc_direct_trojan_eshak.khorsander.fun 36
       - tls_grpc_direct_trojan_eshak.khorsander.fun 37
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 38
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 39
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 40
+      - tls_grpc_direct_trojan_eshak.khorsander.fun 41
 rule-providers:
   clash:
     type: http
