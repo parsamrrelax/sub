@@ -17,21 +17,6 @@ dns:
   nameserver:
     - https://cloudflare-dns.com/dns-query
 proxies:
-  - name: tls_WS_CDN_vless_heaven
-    server: heaven.mooshaksazi.fun
-    port: 443
-    type: vless
-    uuid: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: heaven.mooshaksazi.fun
-    network: ws
-    ws-opts:
-      path: /vU9rC5npe3vSb3t2e
-      headers:
-        Host: heaven.mooshaksazi.fun
-    udp: true
   - name: tls_WS_CDN_trojan_heaven
     server: heaven.mooshaksazi.fun
     port: 443
@@ -44,19 +29,6 @@ proxies:
       path: /k5GiaL3W2bU9VU3vSb3t2e
       headers:
         Host: heaven.mooshaksazi.fun
-    udp: true
-  - name: tls_grpc_CDN_vless_heaven
-    server: heaven.mooshaksazi.fun
-    port: 443
-    type: vless
-    uuid: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: heaven.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vU9rC5npeFgELwRA47GdSDI5
     udp: true
   - name: tls_grpc_CDN_trojan_heaven
     server: heaven.mooshaksazi.fun
@@ -403,9 +375,7 @@ proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
     proxies:
-      - tls_WS_CDN_vless_heaven
       - tls_WS_CDN_trojan_heaven
-      - tls_grpc_CDN_vless_heaven
       - tls_grpc_CDN_trojan_heaven
       - tls_grpc_CDN_trojan_heaven 2
       - tls_grpc_CDN_trojan_heaven 3
@@ -445,9 +415,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - tls_WS_CDN_vless_heaven
       - tls_WS_CDN_trojan_heaven
-      - tls_grpc_CDN_vless_heaven
       - tls_grpc_CDN_trojan_heaven
       - tls_grpc_CDN_trojan_heaven 2
       - tls_grpc_CDN_trojan_heaven 3
