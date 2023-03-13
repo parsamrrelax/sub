@@ -42,138 +42,6 @@ proxies:
       grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
     udp: true
   - name: tls_grpc_CDN_trojan_heaven 2
-    server: 104.16.14.139
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: heaven.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_CDN_trojan_heaven 3
-    server: 66.235.200.231
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: heaven.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_CDN_trojan_heaven 4
-    server: 108.162.196.6
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: heaven.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_CDN_trojan_heaven 5
-    server: 31.43.179.184
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: heaven.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_CDN_trojan_heaven 6
-    server: 45.12.30.162
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: heaven.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_CDN_trojan_heaven 7
-    server: 45.12.31.10
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: heaven.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_CDN_trojan_heaven 8
-    server: 199.27.129.100
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: heaven.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_CDN_trojan_heaven 9
-    server: 212.110.135.96
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: heaven.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_CDN_trojan_heaven 10
-    server: 212.110.135.6
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: heaven.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_CDN_trojan_heaven 11
-    server: 207.189.149.36
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: heaven.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_CDN_trojan_heaven 12
-    server: 193.227.99.38
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: heaven.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_CDN_trojan_heaven 13
-    server: 193.9.49.248
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: heaven.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_CDN_trojan_heaven 14
     server: www.speedtest.net
     port: 443
     type: trojan
@@ -184,40 +52,7 @@ proxies:
     grpc-opts:
       grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
     udp: true
-  - name: tls_grpc_CDN_trojan_heaven 15
-    server: b2n.ir
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: heaven.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_CDN_trojan_heaven 16
-    server: 188.114.96.2
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: heaven.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
   - name: tls_grpc_direct_trojan_hell
-    server: 188.114.96.2
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: hell.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_direct_trojan_hell 2
     server: 66.235.200.231
     port: 443
     type: trojan
@@ -228,7 +63,7 @@ proxies:
     grpc-opts:
       grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
     udp: true
-  - name: tls_grpc_direct_trojan_hell 3
+  - name: tls_grpc_direct_trojan_hell 2
     server: irc.isegaro.click
     port: 443
     type: trojan
@@ -239,7 +74,7 @@ proxies:
     grpc-opts:
       grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
     udp: true
-  - name: tls_grpc_direct_trojan_hell 4
+  - name: tls_grpc_direct_trojan_hell 3
     server: adsl.isegaro.click
     port: 443
     type: trojan
@@ -250,7 +85,7 @@ proxies:
     grpc-opts:
       grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
     udp: true
-  - name: tls_grpc_direct_trojan_hell 5
+  - name: tls_grpc_direct_trojan_hell 4
     server: mci.isegaro.click
     port: 443
     type: trojan
@@ -261,51 +96,7 @@ proxies:
     grpc-opts:
       grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
     udp: true
-  - name: tls_grpc_direct_trojan_hell 6
-    server: 108.162.196.6
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: hell.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_direct_trojan_hell 7
-    server: 23.227.39.25
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: hell.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_direct_trojan_hell 8
-    server: 45.12.30.162
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: hell.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_direct_trojan_hell 9
-    server: 104.16.127.1
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: hell.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_direct_trojan_hell 10
+  - name: tls_grpc_direct_trojan_hell 5
     server: 104.27.52.93
     port: 443
     type: trojan
@@ -316,29 +107,7 @@ proxies:
     grpc-opts:
       grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
     udp: true
-  - name: tls_grpc_direct_trojan_hell 11
-    server: 104.17.182.135
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: hell.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_direct_trojan_hell 12
-    server: cdn.readme.io
-    port: 443
-    type: trojan
-    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
-    skip-cert-verify: true
-    sni: hell.mooshaksazi.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
-    udp: true
-  - name: tls_grpc_direct_trojan_hell 13
+  - name: tls_grpc_direct_trojan_hell 6
     server: 45.85.118.7
     port: 443
     type: trojan
@@ -349,8 +118,85 @@ proxies:
     grpc-opts:
       grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
     udp: true
+  - name: tls_grpc_direct_trojan_hell 7
+    server: 45.95.241.9
+    port: 443
+    type: trojan
+    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
+    skip-cert-verify: true
+    sni: hell.mooshaksazi.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
+    udp: true
+  - name: tls_grpc_direct_trojan_hell 8
+    server: 104.234.158.8
+    port: 443
+    type: trojan
+    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
+    skip-cert-verify: true
+    sni: hell.mooshaksazi.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
+    udp: true
+  - name: tls_grpc_direct_trojan_hell 9
+    server: 45.95.241.7
+    port: 443
+    type: trojan
+    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
+    skip-cert-verify: true
+    sni: hell.mooshaksazi.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
+    udp: true
+  - name: tls_grpc_direct_trojan_hell 10
+    server: 45.95.241.10
+    port: 443
+    type: trojan
+    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
+    skip-cert-verify: true
+    sni: hell.mooshaksazi.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
+    udp: true
+  - name: tls_grpc_direct_trojan_hell 11
+    server: 45.85.118.5
+    port: 443
+    type: trojan
+    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
+    skip-cert-verify: true
+    sni: hell.mooshaksazi.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
+    udp: true
+  - name: tls_grpc_direct_trojan_hell 12
+    server: 23.227.38.11
+    port: 443
+    type: trojan
+    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
+    skip-cert-verify: true
+    sni: hell.mooshaksazi.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
+    udp: true
+  - name: tls_grpc_direct_trojan_hell 13
+    server: 66.81.247.6
+    port: 443
+    type: trojan
+    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
+    skip-cert-verify: true
+    sni: hell.mooshaksazi.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
+    udp: true
   - name: tls_grpc_direct_trojan_hell 14
-    server: izzicasino.com
+    server: 203.23.104.14
     port: 443
     type: trojan
     password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
@@ -361,7 +207,62 @@ proxies:
       grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
     udp: true
   - name: tls_grpc_direct_trojan_hell 15
-    server: 45.12.31.249
+    server: 185.170.166.9
+    port: 443
+    type: trojan
+    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
+    skip-cert-verify: true
+    sni: hell.mooshaksazi.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
+    udp: true
+  - name: tls_grpc_direct_trojan_hell 16
+    server: 31.43.179.2
+    port: 443
+    type: trojan
+    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
+    skip-cert-verify: true
+    sni: hell.mooshaksazi.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
+    udp: true
+  - name: tls_grpc_direct_trojan_hell 17
+    server: 45.131.208.9
+    port: 443
+    type: trojan
+    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
+    skip-cert-verify: true
+    sni: hell.mooshaksazi.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
+    udp: true
+  - name: tls_grpc_direct_trojan_hell 18
+    server: 104.20.22.46
+    port: 443
+    type: trojan
+    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
+    skip-cert-verify: true
+    sni: hell.mooshaksazi.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
+    udp: true
+  - name: tls_grpc_direct_trojan_hell 19
+    server: 188.114.96.2
+    port: 443
+    type: trojan
+    password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
+    skip-cert-verify: true
+    sni: hell.mooshaksazi.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: k5GiaL3W2bU9VUFgELwRA47GdSDI5
+    udp: true
+  - name: tls_grpc_direct_trojan_hell 20
+    server: 104.19.194.15
     port: 443
     type: trojan
     password: 87cb1940-8dfa-4075-b4eb-b44af1d441a0
@@ -378,20 +279,6 @@ proxy-groups:
       - tls_WS_CDN_trojan_heaven
       - tls_grpc_CDN_trojan_heaven
       - tls_grpc_CDN_trojan_heaven 2
-      - tls_grpc_CDN_trojan_heaven 3
-      - tls_grpc_CDN_trojan_heaven 4
-      - tls_grpc_CDN_trojan_heaven 5
-      - tls_grpc_CDN_trojan_heaven 6
-      - tls_grpc_CDN_trojan_heaven 7
-      - tls_grpc_CDN_trojan_heaven 8
-      - tls_grpc_CDN_trojan_heaven 9
-      - tls_grpc_CDN_trojan_heaven 10
-      - tls_grpc_CDN_trojan_heaven 11
-      - tls_grpc_CDN_trojan_heaven 12
-      - tls_grpc_CDN_trojan_heaven 13
-      - tls_grpc_CDN_trojan_heaven 14
-      - tls_grpc_CDN_trojan_heaven 15
-      - tls_grpc_CDN_trojan_heaven 16
       - tls_grpc_direct_trojan_hell
       - tls_grpc_direct_trojan_hell 2
       - tls_grpc_direct_trojan_hell 3
@@ -407,6 +294,11 @@ proxy-groups:
       - tls_grpc_direct_trojan_hell 13
       - tls_grpc_direct_trojan_hell 14
       - tls_grpc_direct_trojan_hell 15
+      - tls_grpc_direct_trojan_hell 16
+      - tls_grpc_direct_trojan_hell 17
+      - tls_grpc_direct_trojan_hell 18
+      - tls_grpc_direct_trojan_hell 19
+      - tls_grpc_direct_trojan_hell 20
       - BEST-PING
       - DIRECT
   - name: BEST-PING
@@ -418,20 +310,6 @@ proxy-groups:
       - tls_WS_CDN_trojan_heaven
       - tls_grpc_CDN_trojan_heaven
       - tls_grpc_CDN_trojan_heaven 2
-      - tls_grpc_CDN_trojan_heaven 3
-      - tls_grpc_CDN_trojan_heaven 4
-      - tls_grpc_CDN_trojan_heaven 5
-      - tls_grpc_CDN_trojan_heaven 6
-      - tls_grpc_CDN_trojan_heaven 7
-      - tls_grpc_CDN_trojan_heaven 8
-      - tls_grpc_CDN_trojan_heaven 9
-      - tls_grpc_CDN_trojan_heaven 10
-      - tls_grpc_CDN_trojan_heaven 11
-      - tls_grpc_CDN_trojan_heaven 12
-      - tls_grpc_CDN_trojan_heaven 13
-      - tls_grpc_CDN_trojan_heaven 14
-      - tls_grpc_CDN_trojan_heaven 15
-      - tls_grpc_CDN_trojan_heaven 16
       - tls_grpc_direct_trojan_hell
       - tls_grpc_direct_trojan_hell 2
       - tls_grpc_direct_trojan_hell 3
@@ -447,6 +325,11 @@ proxy-groups:
       - tls_grpc_direct_trojan_hell 13
       - tls_grpc_direct_trojan_hell 14
       - tls_grpc_direct_trojan_hell 15
+      - tls_grpc_direct_trojan_hell 16
+      - tls_grpc_direct_trojan_hell 17
+      - tls_grpc_direct_trojan_hell 18
+      - tls_grpc_direct_trojan_hell 19
+      - tls_grpc_direct_trojan_hell 20
 rule-providers:
   clash:
     type: http
